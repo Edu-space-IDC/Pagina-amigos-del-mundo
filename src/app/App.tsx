@@ -368,7 +368,7 @@ export default function App() {
     className="text-white leading-relaxed"
     style={{
       fontWeight: 400,
-      fontSize: '0.95rem',
+      fontSize: '0.85rem',
       letterSpacing: '0.3px',
       lineHeight: '1.6',
     }}
@@ -380,7 +380,7 @@ export default function App() {
     className="text-white leading-relaxed mt-4"
     style={{
       fontWeight: 400,
-      fontSize: '0.95rem',
+      fontSize: '0.85rem',
       letterSpacing: '0.3px',
       lineHeight: '1.6',
     }}
@@ -473,7 +473,7 @@ export default function App() {
       <span className="text-yellow-400 font-semibold">
         Juan Camilo Mina
       </span>{" "}
-      ⚡
+      
     </p>
   </motion.div>
 </motion.div>
