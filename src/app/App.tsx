@@ -368,7 +368,7 @@ export default function App() {
     className="text-white leading-relaxed"
     style={{
       fontWeight: 400,
-      fontSize: '0.85rem',
+      fontSize: '0.75rem',
       letterSpacing: '0.3px',
       lineHeight: '1.6',
     }}
@@ -380,7 +380,7 @@ export default function App() {
     className="text-white leading-relaxed mt-4"
     style={{
       fontWeight: 400,
-      fontSize: '0.85rem',
+      fontSize: '0.75rem',
       letterSpacing: '0.3px',
       lineHeight: '1.6',
     }}
