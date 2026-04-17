@@ -395,7 +395,7 @@ export default function App() {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.6, duration: 0.8 }}
         >
-          <span className="text-zinc-500" style={{ fontSize: '0.95rem' }}>
+          <span className="text-zinc-500" style={{ fontSize: '0.80rem' }}>
             #KoriumCollective (Organización KOR) - 2024
           </span>
         </motion.div>
@@ -408,43 +408,43 @@ export default function App() {
           transition={{ delay: 0.8, duration: 0.8 }}
         >
           <SocialButton
-            icon={<MessageCircle size={35} strokeWidth={2.5} />}
+            icon={<MessageCircle size={30} strokeWidth={2.5} />}
             label="WhatsApp - Grupo 1"
             href={socialLinks.whatsappG1}
             color="#25D366"
           />
 
           <SocialButton
-            icon={<MessageCircle size={35} strokeWidth={2.5} />}
+            icon={<MessageCircle size={30} strokeWidth={2.5} />}
             label="WhatsApp - Grupo 2"
             href={socialLinks.whatsappG2}
             color="#25D366"
           />
 
           <SocialButton
-            icon={<Send size={35} strokeWidth={2.5} />}
+            icon={<Send size={30} strokeWidth={2.5} />}
             label="Canal Oficial"
             href={socialLinks.whatsappCanal}
             color="#FFD700"
           />
 
           <SocialButton
-            icon={<Hash size={35} strokeWidth={2.5} />}
+            icon={<Hash size={30} strokeWidth={2.5} />}
             label="Discord"
             href={socialLinks.discord}
             color="#5865F2"
           />
 
           <SocialButton
-            icon={<Music size={35} strokeWidth={2.5} />}
+            icon={<Music size={30} strokeWidth={2.5} />}
             label="TikTok - Grupo"
             href={socialLinks.tiktok}
             color="#FF0050"
           />
 
           <SocialButton
-            icon={<Instagram size={35} strokeWidth={2.5} />}
-            label="Instagram - Grupo"
+            icon={<Instagram size={30} strokeWidth={2.5} />}
+            label="Instagram - Founder"
             href={socialLinks.instagram}
             color="#E4405F"
           />
