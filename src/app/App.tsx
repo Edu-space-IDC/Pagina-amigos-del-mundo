@@ -379,7 +379,7 @@ export default function App() {
           transition={{ delay: 0.6, duration: 0.8 }}
         >
           <span className="text-zinc-500" style={{ fontSize: '0.95rem' }}>
-            #KoriumCollective (Organización KOR) - 2026
+            #KoriumCollective (Organización KOR) - 2024
           </span>
         </motion.div>
 
