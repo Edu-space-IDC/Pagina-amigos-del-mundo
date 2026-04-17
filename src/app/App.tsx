@@ -213,7 +213,7 @@ export default function App() {
       className="min-h-screen w-full relative overflow-hidden"
       style={{
         background: 'radial-gradient(ellipse at top, #1a1a1a 0%, #0a0a0a 100%)',
-        fontFamily: "'Rajdhani', sans-serif",
+        fontFamily: "'Poppins', sans-serif",
       }}
     >
       {/* Efectos de tormenta eléctrica */}
