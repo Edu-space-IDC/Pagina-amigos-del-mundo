@@ -450,28 +450,57 @@ export default function App() {
           />
         </motion.div>
 
-         {/* Footer con efectos */}
+         {/* Footer con efectos tipo botón */}
 <motion.div
   className="mt-16 text-center"
   initial={{ opacity: 0 }}
   animate={{ opacity: 1 }}
   transition={{ delay: 1.2, duration: 0.8 }}
 >
-  <a
+  <motion.a
     href="https://portafoliomilo.vercel.app/"
     target="_blank"
     rel="noopener noreferrer"
-    className="inline-block cursor-pointer"
+    className="relative group inline-block"
+    whileHover={{ scale: 1.05 }}
+    whileTap={{ scale: 0.95 }}
   >
-    <p className="text-zinc-400 font-medium hover:text-yellow-400 transition-colors duration-300"
-       style={{ fontSize: '0.9rem' }}>
-      Desarrollado por:{" "}
-      <span className="text-yellow-400 font-semibold">
-        Juan Camilo Mina
-      </span>{" "}
-      ⚡
-    </p>
-  </a>
+    <div
+      className="relative bg-gradient-to-br from-zinc-900 to-black border-2 rounded-2xl px-8 py-4 overflow-hidden transition-all duration-300"
+      style={{
+        borderColor: 'rgba(255, 215, 0, 0.3)',
+      }}
+    >
+      {/* Glow al hover */}
+      <motion.div
+        className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+        style={{
+          background: `radial-gradient(circle at center, rgba(255, 215, 0, 0.15), transparent 70%)`,
+        }}
+      />
+
+      <div className="relative text-center">
+        <p
+          className="text-zinc-400 font-medium group-hover:text-yellow-400 transition-colors duration-300"
+          style={{ fontSize: '0.9rem' }}
+        >
+          Desarrollado por{" "}
+          <span className="text-yellow-400 font-semibold">
+            Juan Camilo Mina
+          </span>{" "}
+          ⚡
+        </p>
+      </div>
+
+      {/* Línea animada abajo */}
+      <motion.div
+        className="absolute bottom-0 left-0 h-0.5 bg-yellow-400"
+        initial={{ width: 0 }}
+        whileHover={{ width: '100%' }}
+        transition={{ duration: 0.3 }}
+      />
+    </div>
+  </motion.a>
 </motion.div>
         
       </div>
