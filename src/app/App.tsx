@@ -450,7 +450,7 @@ export default function App() {
           />
         </motion.div>
 
-        {/* Footer con efectos */}
+         {/* Footer con efectos */}
 <motion.div
   className="mt-16 text-center"
   initial={{ opacity: 0 }}
