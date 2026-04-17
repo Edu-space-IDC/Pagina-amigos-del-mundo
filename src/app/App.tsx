@@ -350,7 +350,7 @@ export default function App() {
           AMIGOS DEL MUNDO
         </motion.h1>
 
-        <motion.div
+<motion.div
   className="mb-2 max-w-2xl cursor-pointer rounded-2xl border px-6 py-4 backdrop-blur-md select-none"
   style={{
     background: 'linear-gradient(135deg, rgba(30, 30, 30, 0.6), rgba(10, 10, 10, 0.8))',
@@ -360,11 +360,8 @@ export default function App() {
   initial={{ opacity: 0, y: 10 }}
   animate={{ opacity: 1, y: 0 }}
   transition={{ delay: 0.4, duration: 0.7 }}
-
-  // ✨ Efecto táctil estilo botón
   whileHover={{ scale: 1.02, opacity: 0.95 }}
   whileTap={{ scale: 0.96, opacity: 0.8, transition: { duration: 0.05 } }}
-
   onClick={() => {
     console.log("Card clickeada");
   }}
@@ -373,21 +370,15 @@ export default function App() {
     className="text-neutral-300 text-center leading-relaxed"
     style={{
       fontFamily: 'Poppins, sans-serif',
-      fontWeight: 400, // ← suave, sin negrita
+      fontWeight: 400,
       textShadow: '0 0 8px rgba(255, 215, 0, 0.18)',
     }}
   >
-    El mejor grupo de WhatsApp para amigar, armar joda, robar stickers,
-    agregar contactos para ver estados y conocer gente nueva… incluso
-    encontrar pareja si se da. Aquí siempre hay movimiento, conversación y buena vibra.
+    Haz amigos, comparte estados, roba stickers y conecta con personas reales.
 
-    Contamos con moderadores activos que mantienen el orden y una comunidad
-    dinámica donde siempre tendrás con quién hablar. Además, incluimos bot
-    #Nekos con funciones interactivas, juegos y dinámicas que hacen la
-    experiencia mucho más entretenida.
+    {"\n\n"}
 
-    No es solo un grupo, es una comunidad en constante crecimiento donde
-    conectar, divertirte y ser tú mismo. Únete y sé parte de Amigos del Mundo. 🌍⚡
+    Disfruta de un ambiente organizado con moderadores activos y bot #Nekos con juegos y dinámicas que mantienen todo en movimiento.
   </p>
 </motion.div>
 
