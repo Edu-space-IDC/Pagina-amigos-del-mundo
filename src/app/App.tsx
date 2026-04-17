@@ -325,7 +325,7 @@ export default function App() {
             <img
               src={logoImage}
               alt="Logo Rayo"
-              className="relative w-40 h-40 object-contain drop-shadow-2xl"
+              className="relative w-56 h-56 object-contain drop-shadow-2xl"
             />
           </motion.div>
         </motion.div>
