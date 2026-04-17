@@ -457,26 +457,19 @@ export default function App() {
   animate={{ opacity: 1 }}
   transition={{ delay: 1.2, duration: 0.8 }}
 >
-  <motion.div
-    className="inline-block px-10 py-5 rounded-full border border-zinc-800 bg-black/40 backdrop-blur-sm cursor-pointer select-none"
-    whileHover={{ scale: 1.05 }}
-    whileTap={{ scale: 0.95 }}
-    onClick={() => {
-      console.log("click dev 👀"); // opcional, puedes quitarlo
-    }}
-  >
-    <p
-      className="text-zinc-400 font-medium"
-      style={{ fontSize: '0.9rem' }}
-    >
-      Desarrollado por:{" "}
-      <span className="text-yellow-400 font-semibold">
-        Juan Camilo Mina
-      </span>{" "}
-      
-    </p>
-  </motion.div>
-</motion.div>
+  <a
+  href="https://portafoliomilo.vercel.app/"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <p className="text-zinc-400 font-medium" style={{ fontSize: '0.9rem' }}>
+    Desarrollado por:{" "}
+    <span className="text-yellow-400 font-semibold">
+      Juan Camilo Mina
+    </span>{" "}
+    ⚡
+  </p>
+</a>
       </div>
 
       {/* Líneas decorativas de energía en las esquinas */}
