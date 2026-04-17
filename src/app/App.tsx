@@ -271,7 +271,7 @@ export default function App() {
 
           {/* Card container */}
           <motion.div
-            className="relative rounded-3xl p-8 border-2 backdrop-blur-sm overflow-hidden"
+            className="relative rounded-3xl border-2 backdrop-blur-sm overflow-hidden"
             style={{
               background: 'linear-gradient(135deg, rgba(30, 30, 30, 0.8), rgba(10, 10, 10, 0.9))',
               borderColor: 'rgba(255, 215, 0, 0.3)',
