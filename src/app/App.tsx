@@ -356,6 +356,7 @@ export default function App() {
     background: 'linear-gradient(135deg, rgba(30, 30, 30, 0.6), rgba(10, 10, 10, 0.8))',
     borderColor: 'rgba(255, 215, 0, 0.2)',
     boxShadow: '0 4px 20px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 215, 0, 0.1)',
+    fontFamily: 'Poppins, sans-serif',
   }}
   initial={{ opacity: 0, y: 10 }}
   animate={{ opacity: 1, y: 0 }}
@@ -363,11 +364,27 @@ export default function App() {
   whileHover={{ scale: 1.02, opacity: 0.95 }}
   whileTap={{ scale: 0.96, opacity: 0.8, transition: { duration: 0.05 } }}
 >
-  <p className="text-white leading-relaxed" style={{ fontSize: '0.95rem' }}>
+  <p
+    className="text-white leading-relaxed"
+    style={{
+      fontWeight: 400,
+      fontSize: '0.95rem',
+      letterSpacing: '0.3px',
+      lineHeight: '1.6',
+    }}
+  >
     Haz amigos, comparte estados, roba stickers y conecta con personas reales.
   </p>
 
-  <p className="text-white leading-relaxed mt-4" style={{ fontSize: '0.95rem' }}>
+  <p
+    className="text-white leading-relaxed mt-4"
+    style={{
+      fontWeight: 400,
+      fontSize: '0.95rem',
+      letterSpacing: '0.3px',
+      lineHeight: '1.6',
+    }}
+  >
     Disfruta de un ambiente organizado con moderadores activos y bot #Nekos con juegos y dinámicas que mantienen todo en movimiento.
   </p>
 </motion.div>
