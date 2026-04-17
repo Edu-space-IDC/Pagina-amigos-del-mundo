@@ -351,7 +351,7 @@ export default function App() {
         </motion.h1>
 
 <motion.div
-  className="mb-2 max-w-2xl cursor-pointer rounded-2xl border px-6 py-4 backdrop-blur-md select-none"
+  className="mb-2 max-w-2xl cursor-pointer rounded-2xl border px-6 py-4 backdrop-blur-md select-none text-center"
   style={{
     background: 'linear-gradient(135deg, rgba(30, 30, 30, 0.6), rgba(10, 10, 10, 0.8))',
     borderColor: 'rgba(255, 215, 0, 0.2)',
@@ -366,18 +366,11 @@ export default function App() {
     console.log("Card clickeada");
   }}
 >
-  <p
-    className="text-neutral-300 text-center leading-relaxed"
-    style={{
-      fontFamily: 'Poppins, sans-serif',
-      fontWeight: 400,
-      textShadow: '0 0 8px rgba(255, 215, 0, 0.18)',
-    }}
-  >
+  <p className="text-zinc-500 leading-relaxed" style={{ fontSize: '0.95rem' }}>
     Haz amigos, comparte estados, roba stickers y conecta con personas reales.
+  </p>
 
-    {"\n\n"}
-
+  <p className="text-zinc-500 leading-relaxed mt-4" style={{ fontSize: '0.95rem' }}>
     Disfruta de un ambiente organizado con moderadores activos y bot #Nekos con juegos y dinámicas que mantienen todo en movimiento.
   </p>
 </motion.div>
