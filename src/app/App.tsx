@@ -362,15 +362,12 @@ export default function App() {
   transition={{ delay: 0.4, duration: 0.7 }}
   whileHover={{ scale: 1.02, opacity: 0.95 }}
   whileTap={{ scale: 0.96, opacity: 0.8, transition: { duration: 0.05 } }}
-  onClick={() => {
-    console.log("Card clickeada");
-  }}
 >
-  <p className="text-zinc-500 leading-relaxed" style={{ fontSize: '0.95rem' }}>
+  <p className="text-white leading-relaxed" style={{ fontSize: '0.95rem' }}>
     Haz amigos, comparte estados, roba stickers y conecta con personas reales.
   </p>
 
-  <p className="text-zinc-500 leading-relaxed mt-4" style={{ fontSize: '0.95rem' }}>
+  <p className="text-white leading-relaxed mt-4" style={{ fontSize: '0.95rem' }}>
     Disfruta de un ambiente organizado con moderadores activos y bot #Nekos con juegos y dinámicas que mantienen todo en movimiento.
   </p>
 </motion.div>
