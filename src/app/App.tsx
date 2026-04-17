@@ -451,25 +451,29 @@ export default function App() {
         </motion.div>
 
         {/* Footer con efectos */}
-        <motion.div
+<motion.div
   className="mt-16 text-center"
   initial={{ opacity: 0 }}
   animate={{ opacity: 1 }}
   transition={{ delay: 1.2, duration: 0.8 }}
 >
   <a
-  href="https://portafoliomilo.vercel.app/"
-  target="_blank"
-  rel="noopener noreferrer"
->
-  <p className="text-zinc-400 font-medium" style={{ fontSize: '0.9rem' }}>
-    Desarrollado por:{" "}
-    <span className="text-yellow-400 font-semibold">
-      Juan Camilo Mina
-    </span>{" "}
-    ⚡
-  </p>
-</a>
+    href="https://portafoliomilo.vercel.app/"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-block cursor-pointer"
+  >
+    <p className="text-zinc-400 font-medium hover:text-yellow-400 transition-colors duration-300"
+       style={{ fontSize: '0.9rem' }}>
+      Desarrollado por:{" "}
+      <span className="text-yellow-400 font-semibold">
+        Juan Camilo Mina
+      </span>{" "}
+      ⚡
+    </p>
+  </a>
+</motion.div>
+        
       </div>
 
       {/* Líneas decorativas de energía en las esquinas */}
