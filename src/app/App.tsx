@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { motion } from 'motion/react';
 import { MessageCircle, Hash, Send, Music, Instagram } from 'lucide-react';
+import { Analytics } from '@vercel/analytics/react';
 import logoImage from "../imports/image.png";
 
 // Componente de partículas flotantes
@@ -508,6 +509,9 @@ export default function App() {
       {/* Líneas decorativas de energía en las esquinas */}
       <div className="absolute top-0 left-0 w-32 h-32 border-l-2 border-t-2 border-yellow-500/20 rounded-tl-3xl" />
       <div className="absolute bottom-0 right-0 w-32 h-32 border-r-2 border-b-2 border-orange-500/20 rounded-br-3xl" />
+      
+      {/* Vercel Web Analytics */}
+      <Analytics />
     </div>
   );
 }
