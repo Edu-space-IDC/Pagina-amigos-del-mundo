@@ -200,7 +200,7 @@ const SocialButton = ({ icon, label, href, color = '#FFD700' }: SocialButtonProp
 export default function App() {
   // IMPORTANTE: Aquí puedes cambiar los enlaces a tus redes sociales
   const socialLinks = {
- whatsappG1: "https://chat.whatsapp.com/Lp5UmOzkj6z759tEiIov4P",
+ whatsappG1: "https://chat.whatsapp.com/F55xd5BIBJRInAgfS7slG9",
     whatsappG2: "https://chat.whatsapp.com/HIp8E0LwvSpAezR7pL0gif",
     whatsappCanal: "https://whatsapp.com/channel/0029Vb2VBhg47XeC8mnXYg3m",
     discord: "https://discord.gg/uRWVnRx2X",
