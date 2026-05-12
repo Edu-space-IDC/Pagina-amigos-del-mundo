@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { motion } from 'motion/react';
-import { MessageCircle, Hash, Send, Music, Instagram } from 'lucide-react';
+import { MessageCircle, Hash, Send, Music, Instagram, UsersRound } from 'lucide-react';
 import logoImage from "../imports/image.png";
 
 // Componente de partículas flotantes
@@ -200,7 +200,8 @@ const SocialButton = ({ icon, label, href, color = '#FFD700' }: SocialButtonProp
 export default function App() {
   // IMPORTANTE: Aquí puedes cambiar los enlaces a tus redes sociales
   const socialLinks = {
- whatsappG1: "https://chat.whatsapp.com/F55xd5BIBJRInAgfS7slG9",
+    whatsappComunidad: "https://chat.whatsapp.com/",
+    whatsappG1: "https://chat.whatsapp.com/F55xd5BIBJRInAgfS7slG9",
     whatsappG2: "https://chat.whatsapp.com/HIp8E0LwvSpAezR7pL0gif",
     whatsappCanal: "https://whatsapp.com/channel/0029Vb2VBhg47XeC8mnXYg3m",
     discord: "https://discord.gg/uRWVnRx2X",
@@ -407,6 +408,15 @@ export default function App() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.8, duration: 0.8 }}
         >
+
+          
+          <SocialButton
+            icon={<UsersRound size={30} strokeWidth={2.5} />}
+            label="Comunidad oficial"
+            href={socialLinks.whatsappComunidad}
+            color="#25D366"
+          />
+          
           <SocialButton
             icon={<MessageCircle size={30} strokeWidth={2.5} />}
             label="WhatsApp - Grupo 1"
@@ -427,6 +437,7 @@ export default function App() {
             href={socialLinks.whatsappCanal}
             color="#FFD700"
           />
+
 
           <SocialButton
             icon={<Hash size={30} strokeWidth={2.5} />}
