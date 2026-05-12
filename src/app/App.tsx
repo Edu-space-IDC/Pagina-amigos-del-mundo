@@ -201,8 +201,8 @@ export default function App() {
   // IMPORTANTE: Aquí puedes cambiar los enlaces a tus redes sociales
   const socialLinks = {
     whatsappComunidad: "https://chat.whatsapp.com/LPP4s6DR4BoEMkpO2aPXiY",
-    whatsappG1: "https://chat.whatsapp.com/F55xd5BIBJRInAgfS7slG9",
-    whatsappG2: "https://chat.whatsapp.com/HIp8E0LwvSpAezR7pL0gif",
+    whatsappG1: "https://chat.whatsapp.com/DsreEKucbvsJxs2rKTyrWl?mode=gi_t",
+    whatsappG2: "https://chat.whatsapp.com/Ej9tc3yjx6xCbLvG8C31SU?mode=gi_t",
     whatsappCanal: "https://whatsapp.com/channel/0029Vb2VBhg47XeC8mnXYg3m",
     discord: "https://discord.gg/uRWVnRx2X",
     tiktok: "https://www.tiktok.com/@amigosdelmundo?_t=zm-8twlldzj4qs&_r=1",
