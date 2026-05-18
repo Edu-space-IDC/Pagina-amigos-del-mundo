@@ -202,7 +202,7 @@ export default function App() {
   const socialLinks = {
     whatsappComunidad: "https://chat.whatsapp.com/LPP4s6DR4BoEMkpO2aPXiY",
     whatsappG1: "https://chat.whatsapp.com/DsreEKucbvsJxs2rKTyrWl?mode=gi_t",
-    whatsappG2: "https://chat.whatsapp.com/CSz8cCxXBQc1BwNR1hGBxY?mode=gi_t",
+    whatsappG2: "https://chat.whatsapp.com/CSz8cCxXBQc1BwNR1hGBxY",
     whatsappCanal: "https://whatsapp.com/channel/0029Vb2VBhg47XeC8mnXYg3m",
     discord: "https://discord.gg/uRWVnRx2X",
     tiktok: "https://www.tiktok.com/@amigosdelmundo?_t=zm-8twlldzj4qs&_r=1",
