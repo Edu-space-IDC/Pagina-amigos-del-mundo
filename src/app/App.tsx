@@ -424,12 +424,7 @@ export default function App() {
             color="#25D366"
           />
 
-          /* <SocialButton
-            icon={<MessageCircle size={30} strokeWidth={2.5} />}
-            label="WhatsApp - Grupo 2"
-            href={socialLinks.whatsappG2}
-            color="#25D366"
-          /> */
+          
 
           <SocialButton
             icon={<Send size={30} strokeWidth={2.5} />}
