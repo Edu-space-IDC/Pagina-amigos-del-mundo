@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { motion } from 'motion/react';
 import { MessageCircle, Hash, Send, Music, Instagram, UsersRound } from 'lucide-react';
 import logoImage from "../imports/image.png";
+import { Analytics } from '@vercel/analytics/react';
 
 // Componente de partículas flotantes
 const FloatingParticles = () => {
@@ -386,7 +387,7 @@ export default function App() {
       lineHeight: '1.6',
     }}
   >
-    Disfruta de un ambiente organizado con moderadores activos y bot #Nekos con juegos y dinámicas que mantienen todo en movimiento.
+    Disfruta de un ambiente organizado con moderadores activos y bot #Nekos con juegos y din��micas que mantienen todo en movimiento.
   </p>
 </motion.div>
 
@@ -514,6 +515,9 @@ export default function App() {
       {/* Líneas decorativas de energía en las esquinas */}
       <div className="absolute top-0 left-0 w-32 h-32 border-l-2 border-t-2 border-yellow-500/20 rounded-tl-3xl" />
       <div className="absolute bottom-0 right-0 w-32 h-32 border-r-2 border-b-2 border-orange-500/20 rounded-br-3xl" />
+      
+      {/* Vercel Analytics */}
+      <Analytics />
     </div>
   );
 }
