@@ -204,7 +204,7 @@ export default function App() {
     whatsappG1:"https://chat.whatsapp.com/DCGc5LCFzaXAGem7oFVLgz?mode=gi_t",
     whatsappG2: "https://chat.whatsapp.com/CSz8cCxXBQc1BwNR1hGBxY",
     whatsappCanal: "https://whatsapp.com/channel/0029Vb2VBhg47XeC8mnXYg3m",
-    discord: "https://discord.gg/uRWVnRx2X",
+    discord: "https://discord.gg/UTyPNsC2",
     tiktok: "https://www.tiktok.com/@amigosdelmundo?_t=zm-8twlldzj4qs&_r=1",
     instagram: "https://www.instagram.com/lukaa_ml/?hl=es-es",
   };
