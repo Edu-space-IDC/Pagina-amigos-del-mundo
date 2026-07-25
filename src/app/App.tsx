@@ -424,6 +424,14 @@ export default function App() {
             color="#25D366"
           />
 
+
+          <SocialButton
+            icon={<Hash size={30} strokeWidth={2.5} />}
+            label="Servidor de Discord"
+            href={socialLinks.discord}
+            color="#5865F2"
+          />
+
           
 
           <SocialButton
@@ -433,13 +441,6 @@ export default function App() {
             color="#FFD700"
           />
 
-
-          <SocialButton
-            icon={<Hash size={30} strokeWidth={2.5} />}
-            label="Servidor de Discord"
-            href={socialLinks.discord}
-            color="#5865F2"
-          />
 
 
           <SocialButton
