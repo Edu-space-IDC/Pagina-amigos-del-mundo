@@ -201,7 +201,7 @@ export default function App() {
   // IMPORTANTE: Aquí puedes cambiar los enlaces a tus redes sociales
   const socialLinks = {
     whatsappComunidad: "https://chat.whatsapp.com/LPP4s6DR4BoEMkpO2aPXiY",
-    whatsappG1:"https://chat.whatsapp.com/C2PCpPOwINE1GwPkntg5pS?s=sh&p=i&ilr=1&amv=2",
+    whatsappG1:"https://chat.whatsapp.com/Jac3NAHjBsFFUvu70RRvf4?",
     whatsappG2: "https://chat.whatsapp.com/CSz8cCxXBQc1BwNR1hGBxY",
     whatsappCanal: "https://whatsapp.com/channel/0029Vb2VBhg47XeC8mnXYg3m",
     discord: "https://discord.gg/UTyPNsC2",
@@ -419,7 +419,7 @@ export default function App() {
           
           <SocialButton
             icon={<MessageCircle size={30} strokeWidth={2.5} />}
-            label="WhatsApp - Grupo 1"
+            label="WhatsApp - Grupos"
             href={socialLinks.whatsappG1}
             color="#25D366"
           />
@@ -436,10 +436,11 @@ export default function App() {
 
           <SocialButton
             icon={<Hash size={30} strokeWidth={2.5} />}
-            label="Discord"
+            label="Servidor de Discord"
             href={socialLinks.discord}
             color="#5865F2"
           />
+
 
           <SocialButton
             icon={<Music size={30} strokeWidth={2.5} />}
