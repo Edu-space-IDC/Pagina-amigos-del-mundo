@@ -201,7 +201,7 @@ export default function App() {
   // IMPORTANTE: Aquí puedes cambiar los enlaces a tus redes sociales
   const socialLinks = {
     whatsappComunidad: "https://chat.whatsapp.com/LPP4s6DR4BoEMkpO2aPXiY",
-    whatsappG1:"https://chat.whatsapp.com/Jac3NAHjBsFFUvu70RRvf4?",
+    whatsappG1:"https://chat.whatsapp.com/BrgimdvuuYE4kCSGZncM8s",
     whatsappG2: "https://chat.whatsapp.com/CSz8cCxXBQc1BwNR1hGBxY",
     whatsappCanal: "https://whatsapp.com/channel/0029Vb2VBhg47XeC8mnXYg3m",
     discord: "https://discord.gg/UTyPNsC2",
