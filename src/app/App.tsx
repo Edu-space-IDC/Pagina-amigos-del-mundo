@@ -201,12 +201,12 @@ export default function App() {
   // IMPORTANTE: Aquí puedes cambiar los enlaces a tus redes sociales
   const socialLinks = {
     whatsappComunidad: "https://chat.whatsapp.com/LPP4s6DR4BoEMkpO2aPXiY",
-    whatsappG1:"https://chat.whatsapp.com/HyLeLRdBFD8FKpgUgSkfgS?s=cl&p=i&ilr=2",
+    whatsappG1:"https://whatsapp.com/channel/0029Vb2VBhg47XeC8mnXYg3m",
     whatsappG2: "https://chat.whatsapp.com/CSz8cCxXBQc1BwNR1hGBxY",
     whatsappCanal: "https://whatsapp.com/channel/0029Vb2VBhg47XeC8mnXYg3m",
-    discord: "https://discord.gg/UTyPNsC2",
+    discord: "https://discord.gg/gCkyM7vZx",
     tiktok: "https://www.tiktok.com/@amigosdelmundo?_t=zm-8twlldzj4qs&_r=1",
-    instagram: "https://www.instagram.com/lukaa_ml/?hl=es-es",
+    instagram: "https://ig.me/j/VlJAHYpr8CDflKJC/",
   };
 
   return (
@@ -410,12 +410,7 @@ export default function App() {
         >
 
           
-          <SocialButton
-            icon={<UsersRound size={30} strokeWidth={2.5} />}
-            label="Comunidad oficial"
-            href={socialLinks.whatsappComunidad}
-            color="#25D366"
-          />
+          
           
           <SocialButton
             icon={<MessageCircle size={30} strokeWidth={2.5} />}
@@ -430,29 +425,18 @@ export default function App() {
             label="Servidor de Discord"
             href={socialLinks.discord}
             color="#5865F2"
-          />
+          /> 
 
           
 
-          <SocialButton
-            icon={<Send size={30} strokeWidth={2.5} />}
-            label="Canal Oficial"
-            href={socialLinks.whatsappCanal}
-            color="#FFD700"
-          />
+          
 
 
 
-          <SocialButton
-            icon={<Music size={30} strokeWidth={2.5} />}
-            label="TikTok - Grupo"
-            href={socialLinks.tiktok}
-            color="#FF0050"
-          />
-
+      
           <SocialButton
             icon={<Instagram size={30} strokeWidth={2.5} />}
-            label="Instagram - Founder"
+            label="Instagram - Grupo"
             href={socialLinks.instagram}
             color="#E4405F"
           />
