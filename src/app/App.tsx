@@ -430,16 +430,6 @@ export default function App() {
           
 
           
-
-
-
-      
-          <SocialButton
-            icon={<Instagram size={30} strokeWidth={2.5} />}
-            label="Instagram - Grupo"
-            href={socialLinks.instagram}
-            color="#E4405F"
-          />
         </motion.div>
 
          {/* Footer con efectos tipo botón */}
