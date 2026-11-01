@@ -204,7 +204,7 @@ export default function App() {
     whatsappG1:"https://whatsapp.com/channel/0029Vb2VBhg47XeC8mnXYg3m",
     whatsappG2: "https://chat.whatsapp.com/CSz8cCxXBQc1BwNR1hGBxY",
     whatsappCanal: "https://whatsapp.com/channel/0029Vb2VBhg47XeC8mnXYg3m",
-    discord: "https://discord.gg/jCmRmmehv",
+    discord: "https://discord.gg/AGqQ6mbrE",
     tiktok: "https://www.tiktok.com/@amigosdelmundo?_t=zm-8twlldzj4qs&_r=1",
     instagram: "https://ig.me/j/VlJAHYpr8CDflKJC/",
   };
